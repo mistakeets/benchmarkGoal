@@ -1,0 +1,88 @@
+body{
+  background-color:orange;
+  font-family: "Monospace";
+}
+
+div{
+  padding: 20px;
+}
+
+#oscillator-list { /* Descendent Selector */
+  list-style-type: none;
+  padding-left: 0px;
+  color:white;
+}
+
+#sawtooth {
+  background-color: #336E91;
+}
+
+#sine {
+  background-color: #783d47;
+}
+
+#triangle {
+  background-color: #3b3040;
+}
+
+#square {
+  background-color: #b85635;
+}
+
+.selected-waveform {
+  outline: 2px solid #FFFFFF; 
+}
+
+.selected-solfege {
+  outline: 2px solid #FFFFFF;
+}
+
+#solfege-list {
+  list-style-type: none;
+  padding-left: 0px;
+  color:white;
+}
+
+#do {
+  background-color: #336E91;
+}
+
+#re {
+  background-color: #783d47;
+}
+
+#mi {
+  background-color: #3b3040;
+}
+
+#fa {
+  background-color: #b85635;
+}
+
+#sol {
+  background-color: #336E91;
+}
+
+#la {
+  background-color: #783d47;
+}
+
+#ti {
+  background-color: #3b3040;
+}
+
+.osc-controls {
+  border-style: solid;
+  border-color: #BC6527;
+  border-width: 2px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.application {
+  width: 550px;
+  margin: 0 auto;
+}
+
+
+
