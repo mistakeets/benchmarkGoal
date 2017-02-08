@@ -1,0 +1,29 @@
+{
+  "name": "benchmarkgoal",
+  "version": "1.0.0",
+  "description": "benchmark challenge",
+  "private": false,
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "mocha --compilers js:babel-register ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistakeets/benchmarkGoal.git"
+  },
+  "author": "MistaKeets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mistakeets/benchmarkGoal/issues"
+  },
+  "homepage": "https://github.com/mistakeets/benchmarkGoal#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-env": "^1.1.8",
+    "babel-register": "^6.22.0",
+    "chai": "^3.5.0",
+    "chai-change": "^2.1.2",
+    "mocha": "^3.2.0"
+  }
+}
