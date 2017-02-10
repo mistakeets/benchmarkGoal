@@ -1,13 +1,9 @@
 function fibonacci(n) {
-  if (n === 0 || n === 1) {
-    return 1;
-  } else {
-    return fibonacci(n - 2) + fibonacci(n - 1);
-  }
+  return n === 0 || n === 1 ? 1 : fibonacci(n - 2) + fibonacci(n - 1)
 }
 
 function decToFibonnaci(number) {
-  let array = []
+  let strArray = []
   let fibonacciStack = []
   let i = 1
   let k = 0
@@ -20,15 +16,15 @@ function decToFibonnaci(number) {
       decToFibonnaci(number - fibonacci(i - 1))
     } else {
       while (k < fibonacciStack[0]) {
-        array.push(0)
+        strArray.push(0)
         k += 1
       }
       while (m < fibonacciStack.length) {
-        array[fibonacciStack[m] - 1] = 1
+        strArray[fibonacciStack[m] - 1] = 1
         m += 1
       }
     }
-    return array.split("").reverse().join("")
+    return strArray.reverse()
   }
 }
 
