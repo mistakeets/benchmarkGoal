@@ -2,7 +2,7 @@ import { expect } from 'chai'
 import chaiChange from 'chai-change'
 import disemvowling from '../src/disemvowling'
 
-describe.only('disemvowling', function() {
+describe('disemvowling', function() {
 
   it('should be a function', function() {
     expect(disemvowling).to.be.a('function')
