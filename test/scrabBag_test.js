@@ -2,7 +2,7 @@ import { expect } from 'chai'
 import chaiChange from 'chai-change'
 import scrabBag from '../src/scrabBag.js'
 
-tileDistro = {
+const tileDistro = {
   'A': 9,
   'B': 2,
   'C': 2,
@@ -32,9 +32,9 @@ tileDistro = {
   '_': 2
 }
 
-theInput = AERETOXMYCNS_B
+const theInput = 'AERETOXMYCNS_B'
 
-describe.only('scrabBag', function() {
+describe('scrabBag', function() {
 
   it('should be a function', function() {
     expect(scrabBag).to.be.a('function')
