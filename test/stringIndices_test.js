@@ -2,7 +2,7 @@ import { expect } from 'chai'
 import chaiChange from 'chai-change'
 import stringIndices from '../src/stringIndices'
 
-describe.only('String Indices ', function() {
+describe('String Indices ', function() {
 
   it('should be a function', function() {
     expect(stringIndices).to.be.a('function')
